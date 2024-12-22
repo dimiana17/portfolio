@@ -1,0 +1,33 @@
+body{
+    background-color: #1F2121;
+}
+#main{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#main #navbar {
+    font-size: 13px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.101);
+    margin: 0;
+    position: relative;
+    height: 50px;
+}
+#main #navbar ol{
+    padding: 16px;
+    list-style: none;
+}
+#main #navbar #myName{
+    left: 10px;
+    position: absolute;
+}
+#main #navbar .icon{
+    font-size: 18px;
+}
+#main #navbar li{
+    float: right;
+    margin-left: 50px;
+}
